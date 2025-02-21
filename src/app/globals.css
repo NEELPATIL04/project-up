@@ -19,3 +19,9 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Move this outside of body so it works everywhere */
+.bg-blur-gradient {
+  background: radial-gradient(circle at bottom right, rgba(30, 58, 138, 0.8), rgba(15, 23, 42, 0.4) 50%, rgba(15, 23, 42, 0.2) 80%, rgba(15, 23, 42, 0) 100%);
+}
+
