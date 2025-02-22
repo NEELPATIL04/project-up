@@ -1,7 +1,7 @@
 "use client";
 
-import Sidebar from "./Sidebar";
-import DashboardHeader from "./Dashboardheader";
+import Sidebar from './Sidebar';
+import DashboardHeader from './Dashboardheader';
 
 export default function Dashboard() {
   return (
@@ -19,3 +19,4 @@ export default function Dashboard() {
     </div>
   );
 }
+
